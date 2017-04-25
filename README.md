@@ -1,6 +1,6 @@
 # npmtest-find-port
 
-#### test coverage for  [find-port (v2.0.1)](https://github.com/kessler/find-port)  [![npm package](https://img.shields.io/npm/v/npmtest-find-port.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-find-port) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-find-port.svg)](https://travis-ci.org/npmtest/node-npmtest-find-port)
+#### basic test coverage for  [find-port (v2.0.1)](https://github.com/kessler/find-port)  [![npm package](https://img.shields.io/npm/v/npmtest-find-port.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-find-port) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-find-port.svg)](https://travis-ci.org/npmtest/node-npmtest-find-port)
 
 #### find an unused port in your localhost
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-find-port/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-find-port/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-find-port/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-find-port/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-find-port/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-find-port/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-find-port/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-find-port/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-find-port/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-find-port/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-find-port/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-find-port/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "2.0.1"
+    "version": "2.0.1",
+    "bin": {}
 }
 ```
 
